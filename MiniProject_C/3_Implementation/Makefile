@@ -5,7 +5,7 @@ PROJECT_NAME = onlineShoppingCart
 BUILD = build
 
 # All source code files
-SRC = onlineShoppingCart_main.c\
+SRC = project_main.c\
 src/onlineShoppingCart_operations.c\
 
 # All test source files
