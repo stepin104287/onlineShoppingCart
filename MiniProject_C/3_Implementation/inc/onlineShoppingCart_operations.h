@@ -1,6 +1,6 @@
 /** 
-* @file calculator_operations.h
-* Calculator application with 4 mathematical operations
+* @file onlineShoppingCart_operations.h
+*Online shopping cart application which allow the user to add items to the cart
 *
 */
 
@@ -9,37 +9,36 @@
 #include<string.h>
 
 /**
-*  adds the operand1 and operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 + operand2
+*  long function which allows the user to browse through various categories
+*  shows the cost of each items
+*  shows the specifications of each items
+*  allows the user to add items to the cart
+*  allows the user to delete items from the cart
 */
 void onlineShopping();
 
 /**
-*  subtracts the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 - operand2
+* take laptop choice as a parameter
+* return the cost of selected laptop
 */
 int cost_of_laptop(int choice);
 
 /**
-*  multiply the operand1, operand2 and returns the result
-* @param[in] operand1 
-* @param[in] operand2 
-* @return Result of operand1 * operand2
+*  take book choice as a parameter
+*  return the cost of selected book
 */
 int cost_of_book(int choice);
 
 
 /**
-* divides the operand1 by operand2 and returns the result 
-* @param[in] operand1 
-* @param[in] operand2 
-* @return integer value of the operand1 / operand2
-* @note returns 0 for divide by 0 error
+* take mobile choice as a parameter
+* return the cost of selected mobile
 */
 int cost_of_mobile(int choice);
+
+/**
+* take camera choice as a parameter
+* return the cost of selected camera
+*/
 int cost_of_camera(int choice);
-  /* #define __CALCULATOR_OPERATIONS_H__ */
+  /* #define __ONLINESHOPPINGCART_OPERATIONS_H__ */
