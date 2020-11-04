@@ -15,7 +15,7 @@
 *  allows the user to add items to the cart
 *  allows the user to delete items from the cart
 */
-void onlineShopping();
+int onlineShopping();
 
 /**
 * take laptop choice as a parameter
