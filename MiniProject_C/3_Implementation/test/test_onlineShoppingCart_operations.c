@@ -27,6 +27,7 @@ int main() {
   CU_add_test(suite, "cost_of_book", test_cost_of_book);
   CU_add_test(suite, "cost_of_mobile", test_cost_of_mobile);
   CU_add_test(suite, "cost_of_camera", test_cost_of_camera);
+  CU_add_test(suite, "onlineShopping", test_onlineShopping);
 
 
 /* Note: Do not edit START*/
