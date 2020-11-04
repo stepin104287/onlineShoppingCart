@@ -10,6 +10,7 @@ void test_cost_of_laptop(void);
 void test_cost_of_book(void);
 void test_cost_of_mobile(void);
 void test_cost_of_camera(void);
+void test_onlineShopping(void);
 
 /* Start of the application test */
 int main() {
@@ -68,5 +69,9 @@ void test_cost_of_camera(void) {
 
   /* Dummy fail*/
   CU_ASSERT(264990 == cost_of_camera(2));
+}
+
+void test_onlineShopping(void){
+  CU_ASSERT(0 == onlineShopping());
 }
 
