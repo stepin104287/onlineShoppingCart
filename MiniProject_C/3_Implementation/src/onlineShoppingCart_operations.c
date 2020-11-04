@@ -38,7 +38,7 @@ else if(choice==3)
     return 74135;
 }
 
- void onlineShopping(){
+ int onlineShopping(){
  static int totalCost;
  int i,choice,c=1,a[15],cost[15];
  for(i=0;i<13;i++)
@@ -214,7 +214,7 @@ else if(choice==3)
        totalCost+=762;
        printf("Your Cost in Cart is %d\n",totalCost);
       }else if(num==2){
-      char para[1500]={"Jay Shetty, social media superstar and host of the podcast On Purpose, distils the timeless wisdom he learned as a practising monk into practical steps anyone can take every day to live a less anxious, more meaningful life. Over the past three years, Jay Shetty has become one of the world’s most popular influencers.One of his clips was the most watched video on Facebook last year, with over 360 million views. His social media following totals over 32 million, he has produced over 400 viral videos, which have amassed more than 5 billion views, and his podcast, On Purpose, is consistently ranked the world’s #1 health-related podcast.In this inspiring, empowering book, Shetty draws on his time as a monk in the Vedic tradition to show us how we can clear the roadblocks to our potential and power. Drawing on ancient wisdom and his own rich experiences in the ashram, Think Like a Monk reveals how to overcome negative thoughts and habits, and access the calm and purpose that lie within all of us.The lessons monks learn are profound but often abstract. Shetty transforms them into advice and exercises we can all apply to reduce stress, improve focus, improve relationships, identify our hidden abilities, increase self-discipline and give the gifts we find in ourselves to the world. Shetty proves that everyone can and should think like a monk.\n"};
+      char para[1500]={"Jay Shetty, social media superstar and host of the podcast On Purpose, distils the timeless wisdom he learned as a practising monk into practical steps anyone can take every day to live a less anxious, more meaningful life. Over the past three years, Jay Shetty has become one of the worldâ€™s most popular influencers.One of his clips was the most watched video on Facebook last year, with over 360 million views. His social media following totals over 32 million, he has produced over 400 viral videos, which have amassed more than 5 billion views, and his podcast, On Purpose, is consistently ranked the worldâ€™s #1 health-related podcast.In this inspiring, empowering book, Shetty draws on his time as a monk in the Vedic tradition to show us how we can clear the roadblocks to our potential and power. Drawing on ancient wisdom and his own rich experiences in the ashram, Think Like a Monk reveals how to overcome negative thoughts and habits, and access the calm and purpose that lie within all of us.The lessons monks learn are profound but often abstract. Shetty transforms them into advice and exercises we can all apply to reduce stress, improve focus, improve relationships, identify our hidden abilities, increase self-discipline and give the gifts we find in ourselves to the world. Shetty proves that everyone can and should think like a monk.\n"};
       printf("%s",para);
       printf("To buy press 1\n");
       scanf("%d",&num);
@@ -536,5 +536,7 @@ else if(choice==3)
  }while(c==1 || c==2);
  printf("Your Final Cost is %d\n",totalCost);
  printf("Thanks %s for Choosing Us and Visit us again.\n",str);
+    
+ return 0;   
 
 }
