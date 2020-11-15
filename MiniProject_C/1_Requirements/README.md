@@ -31,11 +31,11 @@ The users shall be able to see the home page of the online shopping-cart applica
 
 Performance Requirements
 This section lists the performance requirements expected from the online shopping-cart application:
-●	PR01:  The users shall be able to add an item to the cart in fewer than 5 seconds.
-●	PR01: The users shall be able to view information about an item in fewer than 5 seconds.
-●	PR03: The users shall be able to check out the items in the shopping cart within 10 seconds after completing the order form.
-●	PR04: The navigation between functions shall take fewer than 5 seconds.
-●	PR05: The application shall be able to do a validation check on the information provided in the user-authentication form to avoid false or incomplete information.
+1. PR01:  The users shall be able to add an item to the cart in fewer than 5 seconds.
+2. PR01: The users shall be able to view information about an item in fewer than 5 seconds.
+3. PR03: The users shall be able to check out the items in the shopping cart within 10 seconds after completing the order form.
+4. PR04: The navigation between functions shall take fewer than 5 seconds.
+5. PR05: The application shall be able to do a validation check on the information provided in the user-authentication form to avoid false or incomplete information.
 
 
 
