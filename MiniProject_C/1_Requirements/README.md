@@ -16,18 +16,18 @@ ii) Or, you use any text editor to edit the program files and download the C com
 
 Functional Requirements
 The users shall be able to see the home page of the online shopping-cart application when they first run the program. The users shall be able to view the different categories, select categories, browse through the items in each category, and add items to the shopping cart. The users shall be able to view the shopping cart and more information about each item.
-●	FR01: The users shall login using the user authentication form.
-●	FR02: The users shall not login or register if the information is incomplete or invalid.
-●	FR03: The users shall be able to view the categories on the program’s output window.
-●	FR04: The users shall be able to view items in different categories.
-●	FR05: The users shall be able to add items to the cart.
-●	FR06: The users shall be able to view more information about an item before adding it to the cart.
-●	FR07: The users shall be able to view the shopping cart.
-●	FR08: The users shall be able to browse through the available items.
-●	FR09: The users shall be able to view the items added to the cart.
-●	FR10: The users shall be able to check out with the current items in the cart.
-●	FR11: The users shall be able to continue shopping.
-●	FR12: The users shall be able to delete items from the cart.
+1. FR01: The users shall login using the user authentication form.
+2. FR02: The users shall not login or register if the information is incomplete or invalid.
+3. FR03: The users shall be able to view the categories on the program’s output window.
+4. FR04: The users shall be able to view items in different categories.
+5. FR05: The users shall be able to add items to the cart.
+6. FR06: The users shall be able to view more information about an item before adding it to the cart.
+7. FR07: The users shall be able to view the shopping cart.
+8. FR08: The users shall be able to browse through the available items.
+9. FR09: The users shall be able to view the items added to the cart.
+10. FR10: The users shall be able to check out with the current items in the cart.
+11. FR11: The users shall be able to continue shopping.
+12. FR12: The users shall be able to delete items from the cart.
 
 Performance Requirements
 This section lists the performance requirements expected from the online shopping-cart application:
