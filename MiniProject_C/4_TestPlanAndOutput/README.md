@@ -1,3 +1,5 @@
 # test plan and test ouput
 
-* Add all the test paln and test output related files under thsi folder
+1.	TC01: To test whether the program return the cost of laptop correctly.
+2.  TC02: To test whether the program return the cost of mobile correctly.
+3.  TC03: To test whether the program return the cost of camera correctly.
